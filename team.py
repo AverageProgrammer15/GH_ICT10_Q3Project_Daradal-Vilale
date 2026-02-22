@@ -1,4 +1,6 @@
 from pyscript import display, document
+
+# List of student names
 students = [
     "Alejandro Enriquez",
     "ALLEN DARADAL",
@@ -27,6 +29,9 @@ students = [
 ]
 
 def show_stud(e):
+    # Clears previous output
     document.getElementById("output").innerHTML = ""
+
+    # Loops through the list and displays each student name
     for x in students:
         display(x, target="output")
