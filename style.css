@@ -82,3 +82,18 @@ input[type="button"]:hover {
     padding: 5px;
     border-bottom: 1px solid #eee;
 }
+
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+}
