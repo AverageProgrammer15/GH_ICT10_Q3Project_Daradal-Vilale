@@ -33,5 +33,5 @@ def show_stud(e):
     document.getElementById("output").innerHTML = ""
 
     # Loops through the list and displays each student name
-    for x in students:
-        display(x, target="output")
+    for index,x in enumerate(students):
+        display(f"{index+1}.) {x}", target="output")
