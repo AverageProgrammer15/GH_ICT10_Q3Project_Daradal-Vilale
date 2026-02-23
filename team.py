@@ -32,6 +32,6 @@ def show_stud(e):
     # Clears previous output
     document.getElementById("output").innerHTML = ""
 
-    # Loops through the list and displays each student name
-    for index,x in enumerate(students):
-        display(f"{index+1}.) {x}", target="output")
+    # Loops through the list and displays each student name with proper capitalization
+    for index, x in enumerate(students):
+        display(f"{index + 1}. {x.title()}", target="output")
